@@ -6,11 +6,17 @@
 @import './base/container';
 
 @import './components/components';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
 
 @import './layout/header';
 @import './layout/hero';
 @import './layout/features';
 @import './layout/works';
-
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
 
 @import './layout/button-list';
+@import './layout/projects-list';
