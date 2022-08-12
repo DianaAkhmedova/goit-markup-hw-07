@@ -297,10 +297,10 @@ input {
   cursor: pointer;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-checkbox:focus ~ .modal-form-fake-checkbox {
+.modal-form-checkbox:focus + .modal-form-checkbox-description > .modal-form-fake-checkbox {
   border: 1px solid var(--accent-color);
 }
-.modal-form-checkbox:checked ~ .modal-form-fake-checkbox {
+.modal-form-checkbox:checked + .modal-form-checkbox-description > .modal-form-fake-checkbox {
   border: none;
   background-color: var(--accent-color);
 }
@@ -315,7 +315,7 @@ input {
   transform: translate(-50%, -50%);
   opacity: 0;
 }
-.modal-form-checkbox:checked ~ .modal-form-fake-checkbox-icon {
+.modal-form-checkbox:checked + .modal-form-checkbox-description .modal-form-fake-checkbox-icon {
   opacity: 1;
 }
 
