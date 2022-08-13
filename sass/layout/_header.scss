@@ -10,18 +10,21 @@
   align-items: center;
 }
 
-.site-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
 .logo {
-  margin-right: 93px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+}
+
+.header__logo {
+  margin-right: 93px;
 }
 
 .logo__text {
