@@ -441,10 +441,10 @@ input {
   color: var(--accent-color);
 }
 
-.nav-list__link--active {
+.nav-list__link_active {
   color: var(--accent-color);
 }
-.nav-list__link--active::after {
+.nav-list__link_active::after {
   position: absolute;
   bottom: 0;
   display: block;
