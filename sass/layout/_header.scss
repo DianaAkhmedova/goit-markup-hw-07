@@ -10,17 +10,9 @@
   align-items: center;
 }
 
-.header__nav {
+.page-nav {
   display: flex;
   align-items: center;
-}
-
-.logo {
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
 }
 
 .header__logo {

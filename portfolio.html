@@ -24,7 +24,7 @@
     <!-- Header -->
     <header class="header">
       <div class="header__container container">
-        <nav class="header__nav">
+        <nav class="page-nav">
           <a href="./index.html" class="logo header__logo link"
             >Web<span class="logo__text">Studio</span></a
           >
@@ -256,52 +256,58 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-address-wrapper">
+      <div class="container footer__container">
+        <div class="footer__address-wrapper">
           <a href="./index.html" class="logo footer__logo link"
             >Web<span class="logo__text logo__text--inverse">Studio</span></a
           >
-          <ul class="list footer-list">
-            <li class="footer-item">
-              <a href="https://goo.gl/maps/wVUK6R6HQRuX6YYK6" class="link footer-address"
+          <ul class="list address-list">
+            <li class="address-list__item">
+              <a
+                href="https://goo.gl/maps/wVUK6R6HQRuX6YYK6"
+                class="link address-list__link footer-address"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="footer-item">
-              <a href="mailto:info@example.com" class="link address">info@example.com</a>
+            <li class="address-list__item">
+              <a href="mailto:info@example.com" class="link address-list__link address"
+                >info@example.com</a
+              >
             </li>
-            <li class="footer-item">
-              <a href="tel:+380991111111" class="link address">+38 099 111 11 11</a>
+            <li class="address-list__item">
+              <a href="tel:+380991111111" class="link address-list__link address"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </div>
         <div class="footer-social-link-wrapper">
-          <p class="subtitle subtitle-theme-dark">приєднуйтесь</p>
+          <h3 class="subtitle subtitle_theme_dark">приєднуйтесь</h3>
           <ul class="social-list list">
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-list-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a href="" class="social-link social-link_theme_dark">
+                <svg class="social-link__icon social-link__icon_theme_dark" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-list-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a href="" class="social-link social-link_theme_dark">
+                <svg class="social-link__icon social-link__icon_theme_dark" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-list-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a href="" class="social-link social-link_theme_dark">
+                <svg class="social-link__icon social-link__icon_theme_dark" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-list-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a href="" class="social-link social-link_theme_dark">
+                <svg class="social-link__icon social-link__icon_theme_dark" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -309,19 +315,19 @@
           </ul>
         </div>
         <div class="footer-form-wrapper">
-          <p class="subtitle subtitle-theme-dark">Підпишіться на розсилку</p>
+          <h3 class="subtitle subtitle_theme_dark">Підпишіться на розсилку</h3>
           <form class="footer-form">
-            <label class="footer-form-field">
+            <label class="footer-form__field">
               <input
-                class="footer-form-input"
+                class="footer-form__input"
                 type="email"
                 name="user-email"
                 placeholder="E-mail"
                 required
             /></label>
-            <button type="submit" class="button send-button">
+            <button type="submit" class="button footer-form__button">
               Підписатися
-              <svg width="24" height="24" class="icon-send">
+              <svg width="24" height="24" class="button__icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

@@ -5,7 +5,11 @@
 @import './base/section';
 @import './base/container';
 
-@import './components/components';
+@import './components/logo';
+@import './components/title';
+@import './components/subtitle';
+@import './components/button';
+@import './components/social-list';
 @import './components/backdrop';
 @import './components/modal-window';
 @import './components/modal-form';

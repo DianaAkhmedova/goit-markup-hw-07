@@ -1,12 +1,12 @@
-.work-section {
+.works-section {
   padding-top: 0;
 }
 
-.work-section-container {
+.works-list {
   display: flex;
 }
 
-.work-section-item {
+.works-list__item {
   position: relative;
   flex-basis: calc((100% - 60px) / 3);
 
@@ -15,7 +15,7 @@
   }
 }
 
-.work-subtitle {
+.works-list__subtitle {
   position: absolute;
   bottom: 0;
   display: flex;

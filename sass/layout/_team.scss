@@ -1,14 +1,12 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 
-.team-container {
+.team-members-list {
   display: flex;
 }
 
-.team-item {
+.team-members-list__item {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--main-light-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -20,13 +18,13 @@
   }
 }
 
-.team-card-content-wrapper {
+.team-members-list__card-content-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.team-title-item {
+.team-members-list__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -34,41 +32,9 @@
   color: var(--secondary-color);
 }
 
-.team-profession {
+.team-members-list__position {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--main-color);
-}
-
-.social-list {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--main-light-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-  }
-}
-
-.social-list-icon {
-  fill: var(--main-fill-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  .social-list-link:hover &,
-  .social-list-link:focus & {
-    fill: var(--main-light-color);
-  }
 }
